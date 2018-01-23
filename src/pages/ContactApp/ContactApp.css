@@ -1,0 +1,28 @@
+.contact-app {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    height: 100%;
+}
+
+.contact-list {
+    overflow-x: auto;
+}
+
+.action-container {
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+
+.action-container > a {
+    padding: 5px 15px;
+    border-radius: 50%;
+    /* background: #246ee5; */
+    background: #24e56e;
+    /* background: green; */
+    color: #fff;
+    font-size: 30px;
+    text-decoration-line: none;
+}

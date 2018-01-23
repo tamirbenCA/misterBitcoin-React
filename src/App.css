@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+  max-width: 300px;
+  /* height: 400px; */
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 30px auto;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid;
+  padding-bottom: 10px;
+}
+
+.fa {
+  font-size: 20px;
+  color: black;
+}
+
+.app-container {
+  /* padding: 20px 0 0 0; */
+  height: 400px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+
+.action-btn {
+  padding: 5px;
+  margin: 10px;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+.user-input {
+  padding: 5px;
+  margin: 10px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid;
+}

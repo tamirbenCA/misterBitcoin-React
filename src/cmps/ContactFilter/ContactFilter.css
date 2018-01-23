@@ -1,0 +1,12 @@
+.filter-input {
+    padding: 5px;
+    margin: 10px;
+    width: 90%;
+    border-radius: 10px;
+    outline: none;
+}
+
+.filter-container {
+    display: flex;
+    justify-content: center;
+}
